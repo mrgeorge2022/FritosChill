@@ -832,7 +832,7 @@ color: #333;
     max-width: 500px;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 0px 100px #ffae00; /* Sombra alrededor del modal */
+    box-shadow: 0 0px 100px rgba(241, 139, 29, 0.996); /* Sombra alrededor del modal */
     animation: fadeIn 0.2s ease; /* Animación de entrada */
     position: relative; /* Necesario para posicionar elementos internos */
 }

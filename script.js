@@ -283,7 +283,7 @@ function displayProducts(category = '', searchQuery = '') {
       image: 'img/productos/empanadamaiz.jpg', 
       name: 'Empanada de maiz', 
       category: ['todos','fritos'], 
-      price: 21000, 
+      price: 1500, 
       description: '¡Un viaje directo al paraíso del sabor!' 
     },
     { 
@@ -291,7 +291,7 @@ function displayProducts(category = '', searchQuery = '') {
       image: 'img/productos/empanadaharina.jpg', 
       name: 'Empanada de harina', 
       category: ['todos','fritos'], 
-      price: 24000, 
+      price: 2000, 
       description: '¡Sabor tan increíble, que parece un mito!' 
     },
     { 
@@ -299,7 +299,7 @@ function displayProducts(category = '', searchQuery = '') {
       image: 'img/productos/arepahuevo.jpg', 
       name: 'Arepa de huevo', 
       category: ['todos','recomendados','fritos'], 
-      price: 28000, 
+      price: 3000, 
       description: '¡La reina del sabor!' 
     },
     { 
@@ -307,7 +307,7 @@ function displayProducts(category = '', searchQuery = '') {
       image: 'img/productos/carimañola.jpg', 
       name: 'Carimañola', 
       category: ['todos','fritos'], 
-      price: 15000, 
+      price: 1500, 
       description: '¡El sabor artesanal, en su máxima expresión!' 
     },
     { 
@@ -315,7 +315,7 @@ function displayProducts(category = '', searchQuery = '') {
       image: 'img/productos/patacones.jpg', 
       name: 'Patacon', 
       category: ['todos','comidas'], 
-      price: 15000, 
+      price: 1000, 
       description: '¡Con la mejor expresión del platano verde!' 
     },
     
@@ -453,7 +453,7 @@ function openModal(productId) {
       image: 'img/productos/empanadamaiz.jpg', 
       name: 'Empanada de maiz', 
       category: ['todos','fritos'], 
-      price: 21000, 
+      price: 1500, 
       description: '¡Un viaje directo al paraíso del sabor!' 
     },
     { 
@@ -461,7 +461,7 @@ function openModal(productId) {
       image: 'img/productos/empanadaharina.jpg', 
       name: 'Empanada de harina', 
       category: ['todos','fritos'], 
-      price: 24000, 
+      price: 2000, 
       description: '¡Sabor tan increíble, que parece un mito!' 
     },
     { 
@@ -469,7 +469,7 @@ function openModal(productId) {
       image: 'img/productos/arepahuevo.jpg', 
       name: 'Arepa de huevo', 
       category: ['todos','recomendados','fritos'], 
-      price: 28000, 
+      price: 3000, 
       description: '¡La reina del sabor!' 
     },
     { 
@@ -477,7 +477,7 @@ function openModal(productId) {
       image: 'img/productos/carimañola.jpg', 
       name: 'Carimañola', 
       category: ['todos','fritos'], 
-      price: 15000, 
+      price: 1500, 
       description: '¡El sabor artesanal, en su máxima expresión!' 
     },
     { 
@@ -485,7 +485,7 @@ function openModal(productId) {
       image: 'img/productos/patacones.jpg', 
       name: 'Patacon', 
       category: ['todos','comidas'], 
-      price: 15000, 
+      price: 1000, 
       description: '¡Con la mejor expresión del platano verde!' 
     },
 ];
@@ -669,7 +669,7 @@ const horariosTienda = [
   { dia: 1, horaApertura: 14, horaCierre: 21 },  // Lunes 
   { dia: 2, horaApertura: 14, horaCierre: 21 },  // Martes
   { dia: 3, horaApertura: 14, horaCierre: 21 },  // Miércoles
-  { dia: 4, horaApertura: 14, horaCierre: 21 },  // Jueves
+  { dia: 4, horaApertura: 1, horaCierre: 21 },  // Jueves
   { dia: 5, horaApertura: 14, horaCierre: 21 },  // Viernes
   { dia: 6, horaApertura: 14, horaCierre: 21 },  // Sábado
 ];

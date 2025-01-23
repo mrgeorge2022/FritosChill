@@ -109,7 +109,7 @@ document.addEventListener('wheel', (event) => {
 let map, marker, directionsService, directionsRenderer, geocoder;
 
 const cartagenaLatLng = { lat: 10.3910, lng: -75.4796 }; // Coordenadas de Cartagena
-const tiendaLatLng = { lat: 10.373757597284885, lng: -75.47360558666398 }; // Coordenadas de la tienda
+const tiendaLatLng = { lat: 10.4074686, lng: -75.4984283 }; // Coordenadas de la tienda
 const cartagenaBounds = new google.maps.LatLngBounds(
     new google.maps.LatLng(10.2900, -75.600),// Coordenadas de la esquina suroeste
     new google.maps.LatLng(10.493397, -75.407694)// Coordenadas de la esquina noreste

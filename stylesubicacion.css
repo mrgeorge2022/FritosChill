@@ -120,7 +120,7 @@ body {
 
 /* Estilo cuando el input está seleccionado (focus) */
 #direccion:focus, #Punto_de_referencia:focus {
-    border: 1px solid #ffc400; /* Borde amarillo cuando se selecciona */
+    border: 1px solid rgba(241, 139, 29, 0.996); /* Borde amarillo cuando se selecciona */
     background-color: #555; /* Fondo oscuro cuando se selecciona */
     color: #fff; /* Color de texto blanco */
     padding: 8px; /* Ajuste de padding */
@@ -284,7 +284,7 @@ button {
     padding: 12px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #ffc400;
+    background-color: rgba(241, 139, 29, 0.996);
     color: #000;
     cursor: pointer;
     margin: 5px;
@@ -292,14 +292,14 @@ button {
 }
 
 button:hover {
-    background-color: #c29502;
+    background-color: rgba(212, 114, 9, 0.996);
 }
 
 #btnListo {
     padding: 12px 20px;
     border: none;
     border-radius: 5px;
-    background-color: #ffc400;
+    background-color: rgba(241, 139, 29, 0.996);
     color: #000;
     cursor: pointer;
     margin: 5px;
@@ -314,7 +314,7 @@ button:hover {
 }
 
 #map {
-    border: 1px solid #fffb00;
+    border: 1px solid rgba(241, 139, 29, 0.996);
     border-radius: 8px;
     margin: 10px auto;
     height: 450px;
@@ -350,7 +350,7 @@ button:hover {
     border-radius: 8px;
     width: 90%;
     max-width: 400px;
-    box-shadow: 0 4px 100px #c29502;
+    box-shadow: 0 4px 100px rgba(241, 139, 29, 0.996);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -424,7 +424,7 @@ input[type="number"]::-webkit-inner-spin-button {
     margin: 0px;
 }
 .modaldatosubicacion button{
-    background-color: #ffc400;
+    background-color: rgba(241, 139, 29, 0.996);
     color: white;
     border: none;
     padding: 12px 24px;
@@ -439,7 +439,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .modaldatosubicacion button:hover {
-    background-color: #c29502;
+    background-color: rgba(212, 114, 9, 0.996);
 }
 
 
@@ -500,7 +500,7 @@ input[type="number"]::-webkit-inner-spin-button {
 /* Botón de "Volver al inicio" */
 .modal-content-fin button {
     width: 250px;
-    background-color: #ffc400;
+    background-color: rgba(241, 139, 29, 0.996);
     color: white;
     border: none;
     font-size: 16px;
